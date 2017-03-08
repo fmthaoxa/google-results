@@ -1,0 +1,140 @@
+#top-border {
+  width: 100%;
+  height: auto;
+  background: #fafafa;
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.search {
+  display:inline-block;
+  vertical-align: top;
+}
+body {
+  display: block;
+  margin: 0;
+}
+.searchbox {
+  height: 26px;
+  box-shadow: 0px 1px 5px 0px;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  position: absolute;
+  border: none;
+  width: 620px;
+  background-color: white;
+}
+.searchbox:hover {
+  box-shadow: -3px 2px 9px 2px;
+}
+.searchbox:focus {
+  box-shadow: -3px 2px 9px 2px;
+}
+.withinsearch {
+  border: none;
+  font-family: arial,sans-serif;
+  vertical-align: middle;
+  align-content: center;
+  padding: 2px;
+  width: 542px;
+  position: relative;
+}
+.inlinesearch {
+  background: white;
+  border: none;
+  display: inline-block;
+}
+.voiceicon {
+  height: 22px;
+  width: auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  padding-top: 0px;
+  vertical-align: middle;
+}
+#rightbuttons {
+  right: 44px;
+  position: fixed;
+  height: auto;
+  width: auto;
+  border: none
+  padding: 0px;;
+}
+.appssignin {
+  display:inline;
+}
+.apps {
+  margin: -5px;
+}
+.signin {
+  background: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: .6em 1em;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  opacity: 0.75;
+  margin-left: 36px;
+}
+.signin:hover {
+  text-decoration: none;
+  opacity: 2
+}
+.signin:visited {
+  background: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: .6em 1em;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  opacity: 0.75
+}
+#navtools {
+  border: none;
+  height: 60px;
+  width: 637px;
+  margin-left: 178px;
+}
+.buttons {
+  text-align: center;
+  width: auto;
+  height: 21px;
+  border: none;
+  margin-top: 32px;
+  font-family: arial,sans-serif;
+  opacity: 0.65;
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 11px;
+  padding-left: 0px;
+}
+.buttonsR {
+  text-align: center;
+  width: auto;
+  height: 21px;
+  border: none;
+  margin-top: 32px;
+  font-family: arial,sans-serif;
+  opacity: 0.65;
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 0px;
+  padding-left: 10px;
+  float: right;
+  padding-right: 10px;
+}
+.buttonsR:hover{
+  opacity:1;
+}
+.buttons:hover {
+  opacity:1;
+}
+.navlinks {
+  text-decoration: none;
+}
