@@ -60,7 +60,7 @@ body {
   right: 44px;
   position: fixed;
   height: auto;
-  width: auto;
+  width: 180px;
   border: none
   padding: 0px;;
 }
@@ -79,7 +79,9 @@ body {
   text-decoration: none;
   font-family: Arial, sans-serif;
   opacity: 0.75;
-  margin-left: 36px;
+  margin-left: 0;
+  float: right;
+  margin-top: -8px;
 }
 .signin:hover {
   text-decoration: none;
@@ -137,4 +139,171 @@ body {
 }
 .navlinks {
   text-decoration: none;
+}
+.results {
+  border: none;
+  width: 628px;
+  margin-left: 191px;
+  height: auto;
+  font-family: arial, sans-serif;
+}
+#aboutresults {
+  border: none;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: grey;
+  margin-top: 15px;
+}
+.gresults {
+  border: none;
+  width: 628px;
+  height: auto;
+  font-family: arial, sans-serif;
+  margin-bottom: 22px;
+}
+.glink {
+  font-size: 19px;
+  text-decoration: none;
+}
+.glink:hover {
+  text-decoration: underline;
+}
+.gurl {
+  margin: 0;
+  color: #07a73b;
+  font-style: normal;
+  font-size: 14px;
+}
+.gdetails {
+  margin:0;
+  margin: 0;
+  font-size: 13px;
+}
+.date {
+  color: #8c8585;
+  font-size: 13px;
+}
+#rsearches {
+  border: none;
+  margin-bottom: 30px;
+}
+#leftlist {
+  border: none;
+  text-align: left;
+  height: auto;
+  width: 160px;
+  display: inline-block;
+  margin-left: -33px;
+}
+#rightlist {
+  border: none;
+  text-align: left;
+  height: auto;
+  width: 160px;
+  display: inline-block;
+}
+li {
+  list-style: none
+}
+.alist {
+  text-decoration: none;
+  font-weight: bold;
+}
+.alist:hover {
+  text-decoration: underline;
+}
+.alist:visited {
+  color: blue;
+}
+.g_image {
+  display: block;
+  height: 48px;
+  width: 40px;
+  background-image: url(https://www.google.com/images/nav_logo242_hr.png);
+  background-repeat: no-repeat;
+  background-position-x: -58px;
+  background-position-y: -152px;
+  border: none;
+}
+.g {
+  width: 28px;
+  height: 100px;
+  border: none;
+}
+.o_r_image {
+  display: block;
+  height: 48px;
+  width: 27px;
+  background-image: url(https://www.google.com/images/nav_logo242_hr.png);
+  background-repeat: no-repeat;
+  background-position-x: -97px;
+  background-position-y: -153px;
+  border: none;
+  margin-top: 16px;
+}
+.or {
+  width: 0px;
+  height: 100px;
+  border: none;
+  text-align: center;
+}
+.o_y_image {
+  display: block;
+  height: 48px;
+  width: 27px;
+  background-image: url(https://www.google.com/images/nav_logo242_hr.png);
+  background-repeat: no-repeat;
+  background-position-x: -123px;
+  background-position-y: -153px;
+  border: none;
+  margin-top: 16px;
+}
+.oy {
+  width: 0px;
+  height: 100px;
+  border: none;
+  text-align: center;
+}
+.gleimage {
+  display: block;
+  height: 64px;
+  width: 63px;
+  background-image: url(https://www.google.com/images/nav_logo242_hr.png);
+  background-repeat: no-repeat;
+  background-position-x: -148px;
+  background-position-y: -147px;
+  border: none;
+  margin-top: 16px;
+}
+.gle {
+  width: 28px;
+  height: 101px;
+  border: none;
+  text-align: center;
+}
+.footer {
+  width: auto;
+  height: 100px;
+  border-top: 0.5px solid #EBEBEB;
+}
+#location {
+  border: none;
+  width: 600px;
+  margin-left: 188px;
+}
+#locate {
+  font-size:13px;
+  font-family: arial, sans-serif;
+}
+#footerlist {
+  border: none;
+  width: 600px;
+  margin-left: 140px;
+}
+.flist {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+  font-size: 13px;
+  color: gray;
 }
